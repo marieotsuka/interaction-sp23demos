@@ -8,7 +8,7 @@
 /* type */
 
 body {
-    font-family: times, serif;
+    font-family: Times, serif;
     text-align: center;
     font-size: 38px;
     line-height: 1.2;
@@ -24,8 +24,8 @@ body {
     flex-wrap: wrap;
 }
 
-.section {
-  margin-bottom: 3em;
+section {
+  padding: 3em;
   max-width: 100%;
   width: 100%;
 }
@@ -116,7 +116,13 @@ ol {
 .crimson {
   font-family: "Crimson Text", serif;
 }
-
+.fit {
+  font-family: "fit-variable", sans-serif;
+  font-variation-settings: "wdth" 482;
+}
+.fit:hover{
+  font-variation-settings: "wdth" 1000;
+}
 .red {
   background-color: red;
 }
