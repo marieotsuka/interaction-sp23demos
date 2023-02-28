@@ -1,7 +1,9 @@
-
-// First show all the flowers and create divs for each of them
+//setup container element
 let container = document.getElementById("container");
-// create a counter variable that will give us each flowers number in the array
+
+// must setup a local server to use fetch
+// see Python instructions here:
+// https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server#using_python
 
 fetch('./assets/emojis.json')
   .then(response => response.json())
