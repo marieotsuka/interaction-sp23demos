@@ -12,15 +12,15 @@ h1{
 .icon{
   margin: 20px;
 }
-.emoji{
+/*.emoji{
   font-size: 50px;
-}
+}*/
 .category{
   font-weight: bold;
 }
-.phrase{
+/*.phrase{
   font-size: 40px;
-}
+}*/
 img{
   width: 100%;
 }
