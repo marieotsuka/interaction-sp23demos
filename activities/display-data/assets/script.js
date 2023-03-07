@@ -3,21 +3,11 @@
 let letters = ['a', 'b', 'c']; //an array;
 
 let emojiObject = {
-    "by": "Emily",
+    "key": "value",
     "id": 13,
-    "emoji": "👍",
-    "img": "",
-    "description": "Thumbs up",
-    "alt-meaning": "indicates approval",
-    "category": "hand symbols",
-    "year": 2010,
-    "update": "unicode 6.0",
-    "general-usage": 5,
-    "personal-usage": 3,
-    "intensity": 4,
-    "sample": "sounds good",
-    "unicode": "U+1F44D"
-  };
+    "emoji": "👍"
+};
+
 //setup container element
 let container = document.getElementById("container");
 

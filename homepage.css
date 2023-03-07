@@ -1,1 +1,76 @@
-/*your homepage css styles go here*/
+
+/*your homepage css styles go here*/ 
+@font-face {
+	font-family: 'Amira';
+	src: url('assets/fonts/Amira.woff2') format('woff2');
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+:root{
+	--pad: 2.5rem;
+	--pad-small: 1rem;
+	--size-large: 2rem;
+	--size-base: 1.2rem;
+}
+
+body{
+	font-family: 'Amira', sans-serif;
+	color: rgb(229 67 0);
+	font-size: var(--size-base);
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+
+/* Typographic Styles */ 
+
+h1, h2{
+ 	font-weight: normal;
+ 	color: blue;
+}
+
+a{
+	color: rgb(0 128 39);
+}
+
+p{
+	max-width: 30em;
+}
+
+.work{
+	display: block;
+	font-size: var(--size-large);
+	margin: 20px 0;
+}
+
+/*Structural Styles*/ 
+
+header, footer, main{
+	padding: var(--pad) 0;
+}
+main{
+	border: 3px solid blue;
+	border-right: 0;
+	border-left: 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+section{
+	margin-bottom: var(--pad);
+}
+#projects{
+	grid-column: 1/-1;
+}
+
+.project-list{
+	display: flex;
+}
+.project{
+	margin-right: var(--pad);
+}
+
