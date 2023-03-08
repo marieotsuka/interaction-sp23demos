@@ -1,0 +1,54 @@
+body{
+  font-family: 'PingFang TC', Arial, sans-serif;
+}
+h1{
+  font-weight: normal;
+}
+
+#container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.icon{
+  margin: 20px;
+}
+/*.emoji{
+  font-size: 50px;
+}*/
+.category{
+  font-weight: bold;
+}
+/*.phrase{
+  font-size: 40px;
+}*/
+img{
+  width: 100%;
+}
+
+.food{
+  background: yellow;
+}
+.animal{
+  background: red;
+}
+.smiley{
+  background: green;
+}
+.travel{
+  background: blue;
+}
+
+.detail{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(255 255 255 /0.8);
+  font-size: 5rem;
+  display: none;
+}
+
+.active .detail{
+  display: block;
+}
