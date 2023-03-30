@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive Columns</title>
+	<link rel="icon" href="assets/imgs/favicon.png" type="image/x-icon" />
+	<style type="text/css">
+		body{
+			margin: 0;
+			background: black;
+		}
+		*{
+			box-sizing: border-box;
+		}
+		header{
+			background: green;
+			height: 100px;
+		}
+		main{
+			display: flex;
+			margin-top: 50px;
+			height: 500px;
+		}
+		.name{
+			flex: 1;
+			background: red;
+			margin-right: 50px;
+			padding: 2rem;
+		}
+		.info{
+			flex: 2;
+			background: white;
+			display: flex;
+			padding: 2rem;
+		}
+
+		.text{
+			flex: 2;
+			margin-right: 2rem;
+		}
+		.images{
+			flex: 1;
+		}
+
+		img{
+			width: 100%;
+		}
+
+		@media screen and (max-width: 800px){
+			.info{
+				display: block;
+			}
+			img{
+				width: 50%;
+			}
+			.images{
+				display: flex;
+			}
+		}
+
+		@media screen and (max-width: 500px){
+			main{
+				display: block;
+			}
+			.name{
+				margin-right: 0;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+	</header>
+	<main>
+		<div class="name">
+		</div>
+		<div class="info">
+			<div class="text">
+				<p>
+					More than half a century ago, conservationist Rachel Carson sounded an alarm about human impacts on the natural world with her book Silent Spring. Its title alluded to the loss of twittering birds from natural habitats because of indiscriminate pesticide use, and the treatise spawned the modern conservation movement. But new research published Thursday in Science shows bird populations have continued to plummet in the past five decades, dropping by nearly three billion across North America—an overall decline of 29 percent from 1970.
+				</p>
+			</div>
+			<div class="images">
+				<img src="https://static.scientificamerican.com/sciam/cache/file/7A715AD8-449D-4B5A-ABA2C5D92D9B5A21_source.png">
+
+				<img src="https://static.scientificamerican.com/sciam/cache/file/7A715AD8-449D-4B5A-ABA2C5D92D9B5A21_source.png">
+			</div>
+		</div>
+	</main>
+</body>
+
+</html>

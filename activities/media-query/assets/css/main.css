@@ -1,0 +1,46 @@
+/* reset */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* type */
+
+body {
+    font-family: Times, serif;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+/* structure */
+main{
+  max-width: 1200px;
+  margin: auto;
+  width: 80%;
+}
+
+
+h1,h2,h3,p,table,pre{
+  margin-bottom: 1rem;
+}
+
+h1, h2{
+  margin-top: 2rem;
+}
+pre, code{
+  font-size: 1rem;
+  background-color: aliceblue;
+}
+
+
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media screen and (max-width: 800px){
+  body{
+    background-color: yellow;
+  }
+}

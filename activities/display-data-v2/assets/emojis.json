@@ -4,7 +4,7 @@
     "id": 1,
     "emoji": "🌄",
     "img": "sample",
-    "description": "Sunrise over mountains",
+    "description": "Sunrise over<br> mountains",
     "alt-meaning": "Sun, Mountains, Early Morning",
     "category": "Travel & Places",
     "year": "October 2010",
@@ -12,7 +12,7 @@
     "general-usage": "4 (Yearly Rankn 389)",
     "personal-usage": 1,
     "intensity": 2,
-    "sample": "🔸 The sunrise over the mountains🌄 was a charming scene.",
+    "sample": "🔸 The sunrise over the mountains🌄  was a charming scene.",
     "unicode": "U+1F304"
   },
   {
