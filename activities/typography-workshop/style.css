@@ -65,6 +65,8 @@
   --GRAD: 0;
   --wght: 485;
   --pad: 4rem;
+  --size-large: 3rem;
+  --size-medium: 2rem;
 }
 
 *{
@@ -84,34 +86,33 @@ section{
     margin: auto;
     width: 600px;
     padding: var(--pad);
-    border: 5px solid red;
+/*    border: 5px solid red;*/
     box-sizing: border-box;
-}
-
-h2{
-    font-weight: bold;
 }
 
 h1, h2{
   font-family: 'Quiosco Display';
-  font-size: 2rem;
+  font-size: var(--size-large);
   line-height: 1.0;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+h2{
+    font-size: var(--size-medium);
+    margin-top: var(--pad);
 }
 p{
-    text-indent: 3rem;
-    line-height: 1.4;
+    text-indent: 2rem;
+    line-height: 1.5;
     hyphens: auto;
     font-feature-settings: "onum" on;
 }
 h1 + p, h2 + p{
     text-indent: 0;
 }
-h2{
-    margin-top: var(--pad);
-}
 blockquote{
     font-family: 'Quiosco Display';
-    font-size: 37px;
+    font-size: var(--size-large);
     margin-top: var(--pad);
     letter-spacing: -0.01em;
     line-height: 1.1;
@@ -121,7 +122,7 @@ blockquote{
 ul{
     font-size: .85em;
     letter-spacing: 0.015em;
-    padding-left: 3rem;
+    padding-left: 2rem;
 }
 
 ul li{
@@ -130,7 +131,7 @@ ul li{
     margin-bottom: 1em;
 }
 ul li:before{
-    content: "* ";
+    content: "– ";
 }
 ul li:first-child{
     margin-top: 1em;
@@ -151,8 +152,12 @@ sup{
 }
 /*option+command+[ for curly quotes*/
 
+footer{
+    margin-top: var(--pad);
+    font-size: 0.8rem;
+}
 [lang=gr]{
     font-family: 'Vollkorn', serif;
-    font-size: 1.15em;
+    font-size: 1.1em;
 }
 
