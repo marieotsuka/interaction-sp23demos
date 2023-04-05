@@ -33,6 +33,7 @@ window.onload = function(e){
         displayFact(factCount);
       }else{
         factCount = 0; // reset fact index
+        getFact();
       }  
        
     });

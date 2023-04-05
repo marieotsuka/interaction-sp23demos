@@ -116,7 +116,15 @@ blockquote{
     margin-top: var(--pad);
     letter-spacing: -0.01em;
     line-height: 1.1;
-    text-indent: -0.4em;
+    text-indent: -0.3em;
+}
+blockquote:before{
+    content: "“";
+    display: inline-block;
+}
+blockquote:after{
+    content: "”";
+    display: inline-block;
 }
 
 ul{
