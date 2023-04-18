@@ -7,13 +7,14 @@ let violations = {} // violations object
 // Do something with the data!
 function parseData(data){
 	// Go through each item in the object
-	// Setup unique list of violaltions
+	// Setup unique list of violations
 	console.log(data);
 	violations = {} // reset violations object
 	data.forEach(record => {
 		if ( record.violationdescription ){
 			//take a log of unique violations
 			if( record.code in violations){
+				//code is already registered
 				violations[ record.code ].count ++;
 			}else{
 				//a new violation
